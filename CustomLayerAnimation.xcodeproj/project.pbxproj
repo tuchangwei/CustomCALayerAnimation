@@ -13,6 +13,10 @@
 		3B28223D1B0398E700CED420 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B28223C1B0398E700CED420 /* Images.xcassets */; };
 		3B2822401B0398E700CED420 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B28223E1B0398E700CED420 /* LaunchScreen.xib */; };
 		3B28224C1B0398E700CED420 /* CustomLayerAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B28224B1B0398E700CED420 /* CustomLayerAnimationTests.swift */; };
+		3B2822561B03997E00CED420 /* mic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2822551B03997E00CED420 /* mic1.png */; };
+		3B2822581B039AEB00CED420 /* PieSliceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2822571B039AEB00CED420 /* PieSliceLayer.swift */; };
+		3B28225A1B039AFB00CED420 /* ProgressLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2822591B039AFB00CED420 /* ProgressLayer.swift */; };
+		3B28225C1B039BFD00CED420 /* ArcProgressLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B28225B1B039BFD00CED420 /* ArcProgressLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		3B2822451B0398E700CED420 /* CustomLayerAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLayerAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B28224A1B0398E700CED420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B28224B1B0398E700CED420 /* CustomLayerAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayerAnimationTests.swift; sourceTree = "<group>"; };
+		3B2822551B03997E00CED420 /* mic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic1.png; sourceTree = "<group>"; };
+		3B2822571B039AEB00CED420 /* PieSliceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieSliceLayer.swift; sourceTree = "<group>"; };
+		3B2822591B039AFB00CED420 /* ProgressLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressLayer.swift; sourceTree = "<group>"; };
+		3B28225B1B039BFD00CED420 /* ArcProgressLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcProgressLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,10 @@
 		3B2822321B0398E700CED420 /* CustomLayerAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				3B2822571B039AEB00CED420 /* PieSliceLayer.swift */,
+				3B2822591B039AFB00CED420 /* ProgressLayer.swift */,
+				3B28225B1B039BFD00CED420 /* ArcProgressLayer.swift */,
+				3B2822551B03997E00CED420 /* mic1.png */,
 				3B2822351B0398E700CED420 /* AppDelegate.swift */,
 				3B2822371B0398E700CED420 /* ViewController.swift */,
 				3B2822391B0398E700CED420 /* Main.storyboard */,
@@ -193,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B28223B1B0398E700CED420 /* Main.storyboard in Resources */,
+				3B2822561B03997E00CED420 /* mic1.png in Resources */,
 				3B2822401B0398E700CED420 /* LaunchScreen.xib in Resources */,
 				3B28223D1B0398E700CED420 /* Images.xcassets in Resources */,
 			);
@@ -212,7 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B28225A1B039AFB00CED420 /* ProgressLayer.swift in Sources */,
 				3B2822381B0398E700CED420 /* ViewController.swift in Sources */,
+				3B28225C1B039BFD00CED420 /* ArcProgressLayer.swift in Sources */,
+				3B2822581B039AEB00CED420 /* PieSliceLayer.swift in Sources */,
 				3B2822361B0398E700CED420 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
